@@ -1,7 +1,7 @@
 "use client"
 
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion"
-import { Github, Twitter } from "lucide-react"
+import { Github, Send, Twitter } from "lucide-react"
 import Link from "next/link"
 import { MouseEvent, useRef } from "react"
 
@@ -67,6 +67,7 @@ export function ProfileSection() {
                     >
                         <SocialLink href="https://github.com/0xkuzeydurden" icon={<Github className="h-6 w-6" />} label="GitHub" />
                         <SocialLink href="https://x.com/islakwcterlii/" icon={<Twitter className="h-6 w-6" />} label="X" />
+                        <SocialLink href="https://t.me/kuzeydurdeneth" icon={<Send className="h-6 w-6" />} label="Telegram" />
                     </motion.div>
                 </div>
             </motion.div>
