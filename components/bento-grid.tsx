@@ -17,7 +17,7 @@ export function BentoGrid() {
                 <ProjectCard
                     title="Arc Playground"
                     description="A sleek, technical playground for Arc browser experiments."
-                    href="https://arcplayground.netlify.app/"
+                    href="https://arcplayground.kuzeydurden.com"
                     colorTheme="#0D203F"
                     icon={<Code2 className="h-6 w-6 text-white" />}
                     className="h-full min-h-[400px]"
@@ -49,7 +49,7 @@ export function BentoGrid() {
                 <ProjectCard
                     title="Base Morning"
                     description="Start your day with a fresh routine."
-                    href="https://basemorning.netlify.app/"
+                    href="https://basemorning.kuzeydurden.com"
                     colorTheme="#007AFF"
                     icon={<Coffee className="h-6 w-6 text-white" />}
                     className="h-full min-h-[400px]"
@@ -76,7 +76,7 @@ export function BentoGrid() {
                 <ProjectCard
                     title="Stable Playground"
                     description="Grounded experiments."
-                    href="https://stableplayground.netlify.app/"
+                    href="https://stableplayground.kuzeydurden.com"
                     colorTheme="#142323"
                     icon={<Layout className="h-6 w-6 text-white" />}
                     className="h-full min-h-[400px]"
@@ -113,7 +113,7 @@ export function BentoGrid() {
                 <ProjectCard
                     title="Base Learn"
                     description="Master new skills."
-                    href="https://baselearnapp.netlify.app/"
+                    href="https://baselearnapp.kuzeydurden.com"
                     colorTheme="#007AFF"
                     icon={<GraduationCap className="h-6 w-6 text-white" />}
                     className="h-full min-h-[400px]"
